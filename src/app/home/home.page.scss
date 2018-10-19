@@ -1,1 +1,19 @@
-
+.todo-list{
+    width: 90%;
+    margin: 0 10%;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 2px 3px 7px 0px #cdcdcd;
+    .todo-name {
+        display: inline;
+        vertical-align: middle;
+        &.finished {
+            text-decoration: line-through !important;
+            color: #cdcdcd !important; 
+        }
+    }
+    .checkbox-icon {
+        display: inline;
+        vertical-align: middle;
+    }
+}
